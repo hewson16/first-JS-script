@@ -3,7 +3,7 @@ const currentHour = today.getHours();
 let message = "Hello";
 
 // if morning, show "Good Morning"
-if (current <= 12) {
+if (currentHour <= 12) {
     message = "Good Morning, beautiful word!";
 } else if (currentHour > 12 && currentHour <= 17 ) {
     message = "Hello beautiful world";
