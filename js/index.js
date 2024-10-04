@@ -1,5 +1,5 @@
 const today = new Date();
-const curentHour = today.getHours();
+const currentHour = today.getHours();
 let message = "Hello";
 
 // if morning, show "Good Morning"
